@@ -1,4 +1,4 @@
-package ru.mpei;
+package ru.mpei.init.agent;
 
 import jade.core.Agent;
 import jade.core.behaviours.WakerBehaviour;

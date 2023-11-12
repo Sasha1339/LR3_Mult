@@ -1,6 +1,10 @@
 package ru.mpei;
 
 import jade.core.Agent;
+import ru.mpei.helpers.AgentNear;
+import ru.mpei.init.agent.InitSearchBehaviour;
+import ru.mpei.init.agent.ParallelInitBehaviour;
+import ru.mpei.some.agent.AnalysisBehaviour;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

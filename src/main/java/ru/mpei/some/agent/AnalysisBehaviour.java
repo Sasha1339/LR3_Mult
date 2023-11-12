@@ -1,8 +1,12 @@
-package ru.mpei;
+package ru.mpei.some.agent;
 
 import jade.core.behaviours.Behaviour;
 import jade.lang.acl.ACLMessage;
 import jade.lang.acl.MessageTemplate;
+import ru.mpei.helpers.AgentNear;
+import ru.mpei.helpers.InfoAgent;
+import ru.mpei.some.agent.SendInfoBehaviour;
+import ru.mpei.some.agent.SendResultBehaviour;
 
 public class AnalysisBehaviour extends Behaviour {
 

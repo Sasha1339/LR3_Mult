@@ -1,8 +1,9 @@
-package ru.mpei;
+package ru.mpei.some.agent;
 
 import jade.core.AID;
 import jade.core.behaviours.OneShotBehaviour;
 import jade.lang.acl.ACLMessage;
+import ru.mpei.AgentService;
 
 import java.util.List;
 

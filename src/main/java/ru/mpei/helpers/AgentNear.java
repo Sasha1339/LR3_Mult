@@ -1,4 +1,4 @@
-package ru.mpei;
+package ru.mpei.helpers;
 
 import lombok.Data;
 

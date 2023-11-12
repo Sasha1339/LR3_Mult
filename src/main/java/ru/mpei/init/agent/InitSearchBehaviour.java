@@ -1,10 +1,12 @@
-package ru.mpei;
+package ru.mpei.init.agent;
 
 import jade.core.AID;
 import jade.core.behaviours.OneShotBehaviour;
 import jade.lang.acl.ACLMessage;
+import ru.mpei.AgentService;
+import ru.mpei.helpers.AgentNear;
+import ru.mpei.helpers.InfoAgent;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class InitSearchBehaviour extends OneShotBehaviour {

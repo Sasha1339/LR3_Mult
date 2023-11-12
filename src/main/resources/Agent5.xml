@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <infoAgent>
+        <localName>Agent1</localName>
+        <weight>1</weight>
+    </infoAgent>
+    <infoAgent>
+        <localName>Agent2</localName>
+        <weight>6</weight>
+    </infoAgent>
+    <infoAgent>
+        <localName>Agent3</localName>
+        <weight>10</weight>
+    </infoAgent>
+    <infoAgent>
+        <localName>Agent4</localName>
+        <weight>12</weight>
+    </infoAgent>
+    <infoAgent>
+        <localName>Agent6</localName>
+        <weight>16</weight>
+    </infoAgent>
+    <infoAgent>
+        <localName>Agent7</localName>
+        <weight>19</weight>
+    </infoAgent>
+    <infoAgent>
+        <localName>Agent8</localName>
+        <weight>5</weight>
+    </infoAgent>
+
+</config>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <infoAgent>
+        <localName>Agent1</localName>
+        <weight>25</weight>
+    </infoAgent>
+    <infoAgent>
+        <localName>Agent2</localName>
+        <weight>24</weight>
+    </infoAgent>
+    <infoAgent>
+        <localName>Agent4</localName>
+        <weight>25</weight>
+    </infoAgent>
+    <infoAgent>
+        <localName>Agent5</localName>
+        <weight>10</weight>
+    </infoAgent>
+</config>

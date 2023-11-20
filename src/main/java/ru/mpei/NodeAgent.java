@@ -5,6 +5,7 @@ import ru.mpei.helpers.AgentNear;
 import ru.mpei.init.agent.InitSearchBehaviour;
 import ru.mpei.init.agent.ParallelInitBehaviour;
 import ru.mpei.some.agent.AnalysisBehaviour;
+import ru.mpei.some.agent.ReverseMessageBehaviour;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -31,6 +32,7 @@ public class NodeAgent extends Agent {
             this.addBehaviour(new ParallelInitBehaviour());
         } else {
             this.addBehaviour(new AnalysisBehaviour(agentNear));
+            this.addBehaviour(new ReverseMessageBehaviour());
         }
 
 
